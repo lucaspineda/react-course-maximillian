@@ -7,6 +7,7 @@ import "../Expenses/Expenses.css";
 
 function Expenses(props) {
   const [yearFiltered, setYearFiltered] = useState("2020");
+  console.log('chsmouu', props)
 
   const handleFilterChange = (year) => {
     console.log("here in expenses.js", year);
